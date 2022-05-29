@@ -1,6 +1,9 @@
 # Project In AI 
 # Generating Critical Driving Scenarios Using Optimization To Test Autonomous Emergency Braking System (AEBS)
 
+# Abstract
+Automated driving systems are becoming increasingly complex, making it essential that they are tested thoroughly before being deployed. To ensure the safety and reliability of autonomous driving systems, testing is vital, however identifying effective test scenarios is notoriously difficult, especially for the critical scenarios that may lead to collisions or near-collisions. My research focuses on autonomous emergency braking system (AEBS) and uses optimization to generate critical driving scenarios using a multi-objective self-adapting algorithm (pilOPT) and a supplemental tool (modeFrontier). The results show that none of the 26 driving scenarios imported from Euro NCAP detected any failure. As I continued the testing through optimization using the pilOPT algorithm, a bug was found in modeFrontier as well as a faulty behavior in AEBS. A workaround was provided by the modeFrontier team after I reported the bug to them, but I was not able to test it due to the time constraints for this study. This research provides a strong case for integrating optimization with regression testing to uncover defects and misbehavior in the AEBS. 
+
 
 ![AEB](https://user-images.githubusercontent.com/65445812/170839197-42bf5ff0-d6fd-44ae-bca0-83c62aa7e136.png)
 
